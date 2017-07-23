@@ -1,0 +1,37 @@
+{
+  "name": "brighton-ladder",
+  "version": "0.1.0",
+  "description": "A tool for platform fighters in brighton",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js & webpack --watch -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackbliss99/brighton-ladder.git"
+  },
+  "author": "Jack Bliss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackbliss99/brighton-ladder/issues"
+  },
+  "homepage": "https://github.com/jackbliss99/brighton-ladder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2"
+  }
+}
